@@ -1,12 +1,15 @@
 # Forge
 
-![Forge Logo](assets/forge-logo.png)
-
-> AI-powered design and manufacturing platform
+<div align="center">
+  <img src="images/icon.jpg" alt="Forge Logo" width="800"/>
+  <h3>Forge<br>AI Design & Coding Platform</h3>
+</div>
+`
+> AI-powered design and coding platform
 
 ## Overview
 
-Forge is a next-generation design and manufacturing platform that uses artificial intelligence to help engineers, designers, and makers create optimized physical products. By combining advanced CAD/CAM capabilities with AI assistance, Forge transforms how products are designed, tested, and manufactured.
+Forge is a next-generation design and coding platform, based on Aider, that uses artificial intelligence to help engineers, designers, and makers create optimized physical products. By combining advanced CAD/CAM capabilities with AI assistance, Forge transforms how products are designed, tested, and manufactured.
 
 ## Key Features
 
