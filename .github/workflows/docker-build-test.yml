@@ -1,15 +1,18 @@
 name: Docker Build Test
 
 on:
-  push:
-    paths-ignore:
-      - 'aider/website/**'
-      - 'README.md'
-      - 'HISTORY.md'
-      - '.github/workflows/*'
-      - '!.github/workflows/docker-build-test.yml'
-    branches:
-      - main
+  workflow_dispatch:
+  # Tests disabled for regular commits
+  # Uncomment below to re-enable
+  # push:
+  #   paths-ignore:
+  #     - 'aider/website/**'
+  #     - 'README.md'
+  #     - 'HISTORY.md'
+  #     - '.github/workflows/*'
+  #     - '!.github/workflows/docker-build-test.yml'
+  #   branches:
+  #     - main
   pull_request:
     paths-ignore:
       - 'aider/website/**'
