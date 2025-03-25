@@ -15,4 +15,5 @@ aider/_version.py
 .venv/
 .#*
 .gitattributes
+GitWorkflow.md
 tmp.benchmarks/

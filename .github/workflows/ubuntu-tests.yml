@@ -1,15 +1,18 @@
 name: Ubuntu Python Tests
 
 on:
-  push:
-    paths-ignore:
-      - 'aider/website/**'
-      - 'README.md'
-      - 'HISTORY.md'
-      - '.github/workflows/*'
-      - '!.github/workflows/ubuntu-tests.yml'
-    branches:
-      - main
+  workflow_dispatch:
+  # Tests disabled for regular commits
+  # Uncomment below to re-enable
+  # push:
+  #   paths-ignore:
+  #     - 'aider/website/**'
+  #     - 'README.md'
+  #     - 'HISTORY.md'
+  #     - '.github/workflows/*'
+  #     - '!.github/workflows/ubuntu-tests.yml'
+  #   branches:
+  #     - main
   pull_request:
     paths-ignore:
       - 'aider/website/**'
