@@ -1,18 +1,39 @@
 
-# Forge
+# Codex
 
 <div align="center">
-  <img src="images/icon.jpg" alt="Forge Logo" width="800"/>
-  <h3>Forge<br>AI Design & Coding Platform</h3>
+  <img src="images/icon.jpg" alt="Codex Logo" width="800"/>
+  <h3>Codex<br>AI Design & Coding Platform</h3>
 </div>
 `
 > AI-powered design and coding platform
 
 ## Overview
 
-Forge is a next-generation design and coding platform, based on Aider, that uses artificial intelligence to help engineers, designers, and makers create optimized physical products. By combining advanced CAD/CAM capabilities with AI assistance, Forge transforms how products are designed, tested, and manufactured.
+Codex is a next-generation design and coding platform, based on Aider, that uses artificial intelligence to help engineers, designers, and makers create optimized physical products. By combining advanced CAD/CAM capabilities with AI assistance, Codex transforms how products are designed, tested, and manufactured.
 
+<<<<<<< HEAD
 ## Key Features
+=======
+<p align="center">
+<!--[[[cog
+from scripts.badges import get_badges_md
+text = get_badges_md()
+cog.out(text)
+]]]-->
+  <a href="https://github.com/Aider-AI/aider/stargazers"><img alt="GitHub Stars" title="Total number of GitHub stars the Aider project has received"
+src="https://img.shields.io/github/stars/Aider-AI/aider?style=flat-square&logo=github&color=f1c40f&labelColor=555555"/></a>
+  <a href="https://pypi.org/project/aider-chat/"><img alt="PyPI Downloads" title="Total number of installations via pip from PyPI"
+src="https://img.shields.io/badge/📦%20Installs-1.7M-2ecc71?style=flat-square&labelColor=555555"/></a>
+  <img alt="Tokens per week" title="Number of tokens processed weekly by Aider users"
+src="https://img.shields.io/badge/📈%20Tokens%2Fweek-15B-3498db?style=flat-square&labelColor=555555"/>
+  <a href="https://openrouter.ai/"><img alt="OpenRouter Ranking" title="Aider's ranking among applications on the OpenRouter platform"
+src="https://img.shields.io/badge/🏆%20OpenRouter-Top%2020-9b59b6?style=flat-square&labelColor=555555"/></a>
+  <a href="https://aider.chat/HISTORY.html"><img alt="Singularity" title="Percentage of the new code in Aider's last release written by Aider itself"
+src="https://img.shields.io/badge/🔄%20Singularity-65%25-e74c3c?style=flat-square&labelColor=555555"/></a>
+<!--[[[end]]]-->  
+</p>
+>>>>>>> fb23b6c26f932ac39bd74d80f03b806189fd2f83
 
 ### Intelligent Design Assistant
 
@@ -155,7 +176,7 @@ For detailed documentation, visit our [Documentation Portal](https://forge.ai/do
 
 ## Examples
 
-Check out our [Examples Gallery](https://forge.ai/examples) to see what you can build with Forge:
+Check out our [Examples Gallery](https://forge.ai/examples) to see what you can build with Codex:
 
 - Mechanical components with optimized weight-to-strength ratios
 - Fluid dynamics-optimized designs
@@ -165,7 +186,7 @@ Check out our [Examples Gallery](https://forge.ai/examples) to see what you can 
 
 ## Contributing
 
-We welcome contributions to Forge! See our [Contributing Guide](CONTRIBUTING.md) for details on:
+We welcome contributions to Codex! See our [Contributing Guide](CONTRIBUTING.md) for details on:
 
 - Setting up your development environment
 - Our coding standards and guidelines
@@ -181,7 +202,7 @@ We welcome contributions to Forge! See our [Contributing Guide](CONTRIBUTING.md)
 
 ## License
 
-Forge is available under the MIT License. See the [LICENSE](LICENSE) file for more details.
+Codex is available under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ## Acknowledgments
 
@@ -192,7 +213,7 @@ Forge is available under the MIT License. See the [LICENSE](LICENSE) file for mo
 
 ---
 
-<p align="center">Made with ❤️ by the Forge team</p>
+<p align="center">Made with ❤️ by the Codex team</p>
 -------
 <p align="center">
     <a href="https://aider.chat/"><img src="https://aider.chat/assets/logo.svg" alt="Aider Logo" width="300"></a>
