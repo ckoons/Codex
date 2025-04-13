@@ -5,16 +5,34 @@
   <img src="images/icon.jpg" alt="Codex Logo" width="800"/>
   <h3>Codex<br>AI Design & Coding Platform</h3>
 </div>
-`
+
 > AI-powered design and coding platform
 
 ## Overview
 
-Codex is a next-generation design and coding platform, based on Aider, that uses artificial intelligence to help engineers, designers, and makers create optimized physical products. By combining advanced CAD/CAM capabilities with AI assistance, Codex transforms how products are designed, tested, and manufactured.
+Codex is a next-generation design and coding platform, based on Aider, that uses artificial intelligence to help engineers, designers, and makers create optimized products. By combining advanced AI programming capabilities with a seamless user interface, Codex transforms how software is designed, implemented, and maintained.
 
-<<<<<<< HEAD
+## Tekton Integration
+
+Codex has been integrated with the Tekton platform as a specialized coding component. This integration provides:
+
+1. A unified UI experience with Codex available in the Tekton RIGHT PANEL
+2. Input handling through the Tekton chat interface in the RIGHT FOOTER
+3. Seamless context sharing with other Tekton components
+4. Registration with Hermes for component discovery
+
+### Using Codex with Tekton
+
+To use Codex with Tekton:
+
+1. Start Tekton with the Codex component: `./launch-tekton.sh --components engram,hermes,codex`
+2. Select the "Codex" component from the left sidebar in the Tekton UI
+3. Interact with Aider through the chat interface
+
+For more details, see the [adapter README](adapter/README.md)
+
 ## Key Features
-=======
+
 <p align="center">
 <!--[[[cog
 from scripts.badges import get_badges_md
@@ -33,7 +51,6 @@ src="https://img.shields.io/badge/🏆%20OpenRouter-Top%2020-9b59b6?style=flat-s
 src="https://img.shields.io/badge/🔄%20Singularity-65%25-e74c3c?style=flat-square&labelColor=555555"/></a>
 <!--[[[end]]]-->  
 </p>
->>>>>>> fb23b6c26f932ac39bd74d80f03b806189fd2f83
 
 ### Intelligent Design Assistant
 
@@ -63,7 +80,7 @@ src="https://img.shields.io/badge/🔄%20Singularity-65%25-e74c3c?style=flat-squ
 - Version control and design history
 - Commenting and feedback systems
 - Team permissions and access control
-=======
+
 ### [Cloud and local LLMs](https://aider.chat/docs/llms.html)
 
 <a href="https://aider.chat/docs/llms.html"><img src="https://aider.chat/assets/icons/brain.svg" width="32" height="32" align="left" valign="middle" style="margin-right:10px"></a>
@@ -214,7 +231,7 @@ Codex is available under the MIT License. See the [LICENSE](LICENSE) file for mo
 ---
 
 <p align="center">Made with ❤️ by the Codex team</p>
--------
+
 <p align="center">
     <a href="https://aider.chat/"><img src="https://aider.chat/assets/logo.svg" alt="Aider Logo" width="300"></a>
 </p>
